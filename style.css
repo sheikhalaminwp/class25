@@ -1,0 +1,138 @@
+.header{
+    background: rgb(226, 183, 127);
+}
+.header ul{
+    text-align: right;
+  margin-bottom: 0;
+}
+.header ul li {
+    display: inline-block;
+    border-right: 1px solid #fff;
+    margin-left: -5px;
+}
+.header ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 14px 47px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.header img{
+    width: 200px;
+    padding: 5px 0;
+    
+}
+.header ul li:hover a{
+    background-color: rgb(173, 128, 70);
+    color: rgb(0, 183, 234);
+}
+.banner {
+    background-image: url(https://wallpaperaccess.com/full/474253.jpg);
+    padding: 200px 0;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+.banner h1 {
+    font-size: 40px;
+    color: #ecf0f1;
+}
+.banner p {
+    font-size: 30px;
+    color: #fff;
+    margin-top: 25px;
+}
+.banner::before {
+    height: 100%;
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #0000002b;
+}
+.About .about-text h2 {
+    color: #fff;
+    font-size: 35px;
+}
+.About .about-text p {
+    font-size: 20px;
+}
+.About{
+    background-color: #bdc3c7;
+  
+}
+.service .service-text{
+    border: 1px solid black;
+    margin-top: 10px;
+    background-color: #bdc3c7;
+    box-shadow: 2px 2px 5px black;
+}
+.service .service-text span{
+ font-size: 30px;
+
+}
+.service .service-text h1{
+    color: #fff;
+}
+.service .service-text p{
+    color: #fff;
+}
+.prodcut img{
+    width: 200px;
+}
+.prodcut{
+margin-top: 20px;
+}
+.prodcut .box-right{
+    border: 1px solid black;
+    text-align: center;
+    background-color: #bdc3c7;
+    box-shadow: 1px 1px 16px #0000008c;
+}
+.prodcut .box-right ul li {
+    list-style: none;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+.prodcut .box-right h1{
+color: #fff;
+}
+.prodcut .box-right ul li::before{
+    contain: "";
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f061";
+    margin-right: 10px;
+}
+ul {
+    padding: 0;
+}
+.prodcut .box-right ul li:last-child{
+    border: none;
+}
+/* button, input, optgroup, select, textarea {
+    width: 100%;
+    margin: 5px 0;
+} */
+.footer{
+    background-color: darkblue;
+
+}
+.footer .copyright-text{
+    color: #fff;
+}
+.footer ul{
+    text-align: right;
+}
+
+i.fa-solid.fa-car-on {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 25px;
+    padding: 20px 36px;
+}
+.footer .copyright-text{
+    margin-top: 45px;
+}
